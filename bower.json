@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "description": "practice some cool stuffs",
+  "main": "index.js",
+  "authors": [
+    "Anil Maharjan"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
