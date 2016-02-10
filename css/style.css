@@ -1,8 +1,21 @@
 body{
   margin: 20px;
+  overflow-y: scroll;
 }
 
 .test-icon{
   color:green;
   font-size: 96px !important;
+}
+
+.project-item {
+  margin-bottom: 2rem;
+}
+
+.project-item img{
+  filter: grayscale(100%);
+  border-radius: 5px;
+}
+.project-item:hover img{
+  filter: grayscale(10%);
 }
